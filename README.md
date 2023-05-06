@@ -1,7 +1,7 @@
 ---
-name: 'About'
-layout: 'page'
-permalink: '/README/'
+title: About
+layout: page
+permalink: /README
 ---
 
 ## Requirements

@@ -1,7 +1,7 @@
 ---
-title: 'Home'
-layout: 'home'
-permalink: '/'
+title: Home
+layout: home
+permalink: /
 nav_exclude: true
 ---
 
