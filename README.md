@@ -10,7 +10,7 @@ permalink: /README
  ```sh
  git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
  cd Native-Apps-Compiler && npm i
- python -m pip install --upgrade castlabs-evs
+ python3 -m pip install --upgrade castlabs-evs
  python3 -m castlabs_evs.account signup
  ```
  * Refer to the following list of apps for the command to build your desired app(s):
