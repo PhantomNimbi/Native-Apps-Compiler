@@ -2,5 +2,4 @@ node_modules
 *-win32-x64
 *-linux-x64
 *-darwin-x64
-*.log
 package-lock.json
