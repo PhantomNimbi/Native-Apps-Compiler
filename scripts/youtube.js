@@ -1,3 +1,5 @@
+const fs = require('fs');
+const util = require('util');
 var nativefier = require('nativefier').default;
 
 var options = {
@@ -28,7 +30,7 @@ var options = {
     zoom: 1.0,
     singleInstance: true,
     clearCache: false,
-    verbose: true,
+    verbose: false,
     fileDownloadOptions: {
         saveAs: true,
     },
@@ -40,7 +42,9 @@ var options = {
 
 nativefier(options, function (error, appPath) {
     if (error) {
-        console.error(error);
+        var log_file_error = fs.createWriteStream(__dirname + './error.log', { flags: 'a' });
+        console.log('Caught exception: ' + error);
+        log_file_error.write(util.format('Caught exception: ' + error) + '\n');
         return;
     }
     console.log('App has been nativefied to', appPath);
