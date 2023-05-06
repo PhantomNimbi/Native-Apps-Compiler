@@ -1,8 +1,8 @@
 var nativefier = require('nativefier').default;
 
 var options = {
-    name: 'Proton Mail',
-    targetUrl: 'http://mail.proton.me/',
+    name: 'YouTube',
+    targetUrl: 'https://www.youtube.com/',
     version: '1.0.0',
     appVersion: '1.0.0',
     buildVersion: '1.0.0',
@@ -29,24 +29,13 @@ var options = {
     singleInstance: true,
     clearCache: false,
     verbose: true,
-    browserWindowOptions: {
-        "webPreferences":
-        {
-            "webviewTag": true,
-            "nodeIntegration": true,
-            "nodeIntegrationInSubFrames": true
-        }
-    },
     fileDownloadOptions: {
         saveAs: true,
     },
     win32metadata: {
-        "ProductName": "Proton Mail",
-        "InternalName": "proton-mail",
-        "Author": "Joshua Lewis",
-        "CompanyName": "Joshua Lewis"
-    },
-    oldBuildWarningText: 'You\'re app needs to be updated. Please run the upgrade script.'
+        "ProductName": "YouTube",
+        "InternalName": "youtube"
+    }
 };
 
 nativefier(options, function (error, appPath) {

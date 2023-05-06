@@ -1,9 +1,8 @@
 var nativefier = require('nativefier').default;
 
 var options = {
-    name: 'YouTube',
-    targetUrl: 'http://www.youtube.com/',
-    platform: 'osx',
+    name: 'G123',
+    targetUrl: 'https://g123.jp/?lang=en',
     version: '1.0.0',
     appVersion: '1.0.0',
     buildVersion: '1.0.0',
@@ -34,12 +33,11 @@ var options = {
         saveAs: true,
     },
     win32metadata: {
-        "ProductName": "YouTube",
-        "InternalName": "youtube",
+        "ProductName": "G123",
+        "InternalName": "g123",
         "Author": "Joshua Lewis",
         "CompanyName": "Joshua Lewis"
-    },
-    oldBuildWarningText: 'You\'re app needs to be updated. Please run the upgrade script.'
+    }
 };
 
 nativefier(options, function (error, appPath) {

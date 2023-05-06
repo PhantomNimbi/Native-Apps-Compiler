@@ -1,1 +1,0 @@
-npx nativefier --upgrade '../../apps/youtube'

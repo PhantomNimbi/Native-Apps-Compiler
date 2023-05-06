@@ -2,7 +2,7 @@ var nativefier = require('nativefier').default;
 
 var options = {
     name: 'YouTube Studio',
-    targetUrl: 'http://studio.youtube.com/',
+    targetUrl: 'https://studio.youtube.com/',
     version: '1.0.0',
     appVersion: '1.0.0',
     buildVersion: '1.0.0',
@@ -34,12 +34,8 @@ var options = {
     },
     win32metadata: {
         "ProductName": "YouTube Studio",
-        "InternalName": "youtube-studio",
-        "FileDescription": "YouTube desktop app built with nativefier",
-        "Author": "Joshua Lewis",
-        "CompanyName": "Joshua Lewis"
-    },
-    oldBuildWarningText: 'You\'re app needs to be updated. Please run the upgrade script.'
+        "InternalName": "youtube-studio"
+    }
 };
 
 nativefier(options, function (error, appPath) {

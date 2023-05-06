@@ -2,7 +2,7 @@ var nativefier = require('nativefier').default;
 
 var options = {
   name: 'YouTube Music',
-  targetUrl: 'http://music.youtube.com/',
+  targetUrl: 'https://music.youtube.com/',
   version: '1.0.0',
   appVersion: '1.0.0',
   buildVersion: '1.0.0',
@@ -34,11 +34,8 @@ var options = {
   },
   win32metadata: {
       "ProductName": "YouTube Music",
-      "InternalName": "youtube-music",
-      "Author": "Joshua Lewis",
-      "CompanyName": "Joshua Lewis"
-  },
-  oldBuildWarningText: 'You\'re app needs to be updated. Please run the upgrade script.'
+      "InternalName": "youtube-music"
+  }
 };
 
 nativefier(options, function (error, appPath) {
