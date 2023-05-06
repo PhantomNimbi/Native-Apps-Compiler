@@ -5,18 +5,13 @@ permalink: /README
 ---
 
  * Download and install NodeJS and Python.
- * Run the following command(s) in your terminal to install and setup Castlabs EVS:
- 
- ```sh
- python -m pip install --upgrade castlabs-evs
- python3 -m castlabs_evs.account signup
- ```
-
  * Run the following command(s) in your terminal to clone the repository and install the base dependencies:
 
  ```sh
  git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
  cd Native-Apps-Compiler && npm i
+ python -m pip install --upgrade castlabs-evs
+ python3 -m castlabs_evs.account signup
  ```
  * Refer to the following list of apps for the command to build your desired app(s):
 
