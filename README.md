@@ -1,5 +1,5 @@
 # Native Apps Compiler
-Auto compiler native apps with nativefier
+Auto compiler to build native apps with nativefier
 
 ## Requirements
 
