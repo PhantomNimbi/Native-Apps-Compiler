@@ -6,7 +6,7 @@ Native app auto compiler using nativefier
  * **NodeJS**: [Download][URL1]
  * **Python**: [Download][URL2]
 
-## Compatible OS
+## Supported OS
 
  * **Windows**
  * **Linux**
