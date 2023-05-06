@@ -3,18 +3,19 @@ name: 'About'
 layout: 'page'
 permalink: '/README/'
 ---
-# Requirements
+
+## Requirements
 
  * **NodeJS**: [Download][URL1]
  * **Python**: [Download][URL2]
 
-# Supported OS
+## Supported OS
 
  * **Windows**
  * **Linux**
  * **OSX**
 
-# Instructions
+## Instructions
 
  * Download and install NodeJS and Python from the links above.
  * Run the following command(s) in your terminal to install and setup Castlabs EVS:
@@ -32,7 +33,7 @@ permalink: '/README/'
  ```
  * Refer to the list of available apps for the command to build your desired app(s). 
 
-# Apps
+## Apps
 
   * **YouTube**: 
   ```sh
