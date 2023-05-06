@@ -35,5 +35,9 @@ Native app auto compiler using nativefier
     * **Windows**: `npm run HBO-Max && npm run sign-app "apps/HBO Max-win32-x64"`
     * **Linux**: `npm run HBO-Max && npm run sign-app 'apps/HBO Max-wlinux-x64'`
     * **OSX**: `npm run HBO-Max && npm run sign-app 'apps/HBO Max-darwin-x64'`
+* **Spotify**: 
+    * **Windows**: `npm run Spotify && npm run sign-app "apps/Spotify-win32-x64"`
+    * **Linux**: `npm run Spotify && npm run sign-app 'apps/Spotify-wlinux-x64'`
+    * **OSX**: `npm run Spotify && npm run sign-app 'apps/Spotify-darwin-x64'`
 
 [URL1]: http://nodejs.org
