@@ -7,12 +7,38 @@ permalink: /instructions
  * Download and install NodeJS and Python.
  * Run the following command(s) in your terminal to clone the repository and install the base dependencies:
 
- ```sh
- git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
- cd Native-Apps-Compiler && npm i
- python3 -m pip install --upgrade castlabs-evs
- python3 -m castlabs_evs.account signup
- ```
+    * **Windows**: 
+
+    ```sh
+    git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
+    cd Native-Apps-Compiler && npm i
+    python3 -m venv venv && venv/Scripts/Activate
+    pip -r requirements.txt
+    ```
+
+    * **Linux**:
+
+    ```sh
+    git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
+    cd Native-Apps-Compiler && npm i
+    python3 -m venv venv && venv/bin/ ./activate
+    pip -r requirements.txt
+    ```
+
+    * **OSX**: 
+
+    ```sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew install python@3.10
+    git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
+    cd Native-Apps-Compiler && npm i
+    python3.10 -m pip install --user --upgrade pip
+    python3.10 -m pip install --user virtualenv
+    python3.10 -m venv venv
+    source venv/bin/activate
+    pip -r requirements.txt
+    ```
+
  * Refer to the following list of apps for the command to build your desired app(s):
 
 **Available Apps**:<br />
