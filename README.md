@@ -4,7 +4,7 @@ layout: page
 permalink: /README
 ---
 
- * Download and install NodeJS and Python from the links above.
+ * Download and install NodeJS and Python.
  * Run the following command(s) in your terminal to install and setup Castlabs EVS:
  
  ```sh
