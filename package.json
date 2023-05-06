@@ -1,0 +1,17 @@
+{
+  "name": "native-apps-compiler",
+  "description": "Auto compile native apps with nativefier",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^14"
+  },
+  "scripts": {
+    "build-youtube": "node scripts/build/youtube.js",
+    "build-ytstudio": "node scripts/build/ytstudio.js",
+    "build-ytmusic": "node scripts/build/ytmusic.js",
+    "build-protonmail": "node scripts/build/protonmail.js"
+  },
+  "dependencies": {
+    "nativefier": "^50.1.1"
+  }
+}

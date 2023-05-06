@@ -1,0 +1,1 @@
+npx nativefier --upgrade '../../apps/ytstudio'
