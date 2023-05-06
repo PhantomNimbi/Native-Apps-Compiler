@@ -45,7 +45,7 @@ Native app auto compiler using nativefier
   * **G123**: 
   ```js
   npm run G123
-  ```,
+  ```
   * **Netflix**: 
     * **Windows**:
     ```js
