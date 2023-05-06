@@ -4,19 +4,6 @@ layout: page
 permalink: /README
 ---
 
-## Requirements
-
- * **NodeJS**: [Download][URL1]
- * **Python**: [Download][URL2]
-
-## Supported OS
-
- * **Windows**
- * **Linux**
- * **OSX**
-
-## Instructions
-
  * Download and install NodeJS and Python from the links above.
  * Run the following command(s) in your terminal to install and setup Castlabs EVS:
  
@@ -31,9 +18,9 @@ permalink: /README
  git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
  cd Native-Apps-Compiler && npm i
  ```
- * Refer to the list of available apps for the command to build your desired app(s). 
+ * Refer to the following list of apps for the command to build your desired app(s):
 
-## Apps
+**Available Apps**:<br />
 
   * **YouTube**: 
   ```sh
