@@ -84,20 +84,20 @@ Native app auto compiler using nativefier
     npm run HBO-Max && npm run sign-app 'apps/HBO Max-linux-x64'
     ```
     * **OSX**: 
-    ```js
+    ```sh
     npm run HBO-Max && npm run sign-app 'apps/HBO Max-darwin-x64'
     ```
 * **Spotify**: 
     * **Windows**: 
-    ```js
+    ```sh
     npm run Spotify && npm run sign-app "apps/Spotify-win32-x64"
     ```
     * **Linux**: 
-    ```js
+    ```sh
     npm run Spotify && npm run sign-app 'apps/Spotify-linux-x64'
     ```
     * **OSX**: 
-    ```js
+    ```sh
     npm run Spotify && npm run sign-app 'apps/Spotify-darwin-x64'
     ```
 
