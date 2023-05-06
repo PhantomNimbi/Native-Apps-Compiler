@@ -1,3 +1,8 @@
+---
+name: 'About'
+layout: 'page'
+permalink: '/README/'
+---
 # Native Apps Compiler
 Native app auto compiler using nativefier
 

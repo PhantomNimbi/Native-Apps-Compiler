@@ -1,0 +1,39 @@
+title: Native Apps Compiler
+description: >
+  Native app auto compiler using nativefier
+baseUrl: "/Native-Apps-Compiler" 
+url: "https://PhantomNimbi.github.io/" 
+repository: PhantomNimbi/Native-Apps-Compiler
+ 
+show_excerpts: false
+permalink: pretty
+
+remote_theme: just-the-docs/just-the-docs
+color_scheme: "dark"
+
+search_enabled: false
+
+aux_links:
+  "GitHub":
+    - "//github.com/PhantomNimbi/Native-Apps-Compiler"
+
+aux_links_new_tab: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2023 Joshua Lewis. Distributed by an <a href=\"https://raw.githubusercontent.com/PhantomNimbi/Native-Apps-Compiler/main/LICENSE\">MIT license.</a>"
+  
+header_pages:
+  - index.md
+  - README.md
+  - 404.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
