@@ -1,5 +1,5 @@
 ---
-title: About
+title: Instructions
 layout: page
 permalink: /README
 ---
