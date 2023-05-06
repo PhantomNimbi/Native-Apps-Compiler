@@ -21,10 +21,13 @@ Native app auto compiler using nativefier
     python -m pip install --upgrade castlabs-evs
     python3 -m castlabs_evs.account signup
     ```
- * Clone the repo to a location of your choosing with the following command: 
+    
+ * Clone the repo to a location of your choosing with the following command:
+
     ```cmd
     git clone https://github.com/PhantomNimbi/Native-Apps-Compiler
     ```
+
  * CD into the base folder and run `npm i` to install the base dependencies.
  * Refer to the list of available apps for the command to build your desired app(s). 
 
