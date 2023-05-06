@@ -12,6 +12,7 @@ permalink: /instructions
     ```sh
     git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
     cd Native-Apps-Compiler && npm i
+    pip3 install --upgrade pip
     python3 -m venv venv && venv/Scripts/Activate
     pip -r requirements.txt
     ```
@@ -21,6 +22,7 @@ permalink: /instructions
     ```sh
     git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
     cd Native-Apps-Compiler && npm i
+    pip3 install --upgrade pip
     python3 -m venv venv && venv/bin/ ./activate
     pip -r requirements.txt
     ```
@@ -28,13 +30,11 @@ permalink: /instructions
     * **OSX**: 
 
     ```sh
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    brew install python@3.10
     git clone https://github.com/PhantomNimbi/Native-Apps-Compiler Native-Apps-Compiler
     cd Native-Apps-Compiler && npm i
-    python3.10 -m pip install --user --upgrade pip
-    python3.10 -m pip install --user virtualenv
-    python3.10 -m venv venv
+    pip3 install --user --upgrade pip
+    pip3 install --user virtualenv
+    python3 -m venv venv
     source venv/bin/activate
     pip -r requirements.txt
     ```
