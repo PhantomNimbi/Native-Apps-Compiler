@@ -6,14 +6,17 @@
     "node": "^18"
   },
   "scripts": {
+    "sign-app": "python -m castlabs_evs.vmp sign-pkg",
     "YouTube": "node scripts/youtube.js",
-    "YTStudio": "node scripts/ytstudio.js",
-    "YTMusic": "node scripts/ytmusic.js",
+    "YT-Music": "node scripts/ytmusic.js",
     "G123": "node scripts/g123.js",
-    "PHViewer": "node scripts/phviewer.js"
+    "PH-Viewer": "node scripts/phviewer.js",
+    "Netflix": "node scripts/netflix.js",
+    "Hulu": "node scripts/hulu.js",
+    "HBO-Max": "node scripts/hbomax.js",
+    "Spotify": "node scripts/spotify.js"
   },
   "dependencies": {
-    "nativefier": "^50.1.1",
-    "winston": "^3.8.2"
+    "nativefier": "^50.1.1"
   }
 }

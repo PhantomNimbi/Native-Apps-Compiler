@@ -20,9 +20,20 @@ Native app auto compiler using nativefier
 ## Apps
 
   * **YouTube**: `npm run YouTube`
-  * **YT Music**: `npm run YTMusic`
-  * **YT Studio**: `npm run YTStudio`
-  * **PH Viewer**: `npm run PHViewer`
-  * **G123**: `npm run G123`
+  * **YT Music**: `npm run YT-Music`
+  * **PH Viewer**: `npm run PH-Viewer`
+  * **G123**: `npm run G123`,
+  * **Netflix**: 
+    * **Windows**: `npm run Netflix && npm run sign-app "apps/Netflix-win32-x64"`
+    * **Linux**: `npm run Netflix && npm run sign-app 'apps/Netflix-wlinux-x64'`
+    * **OSX**: `npm run Netflix && npm run sign-app 'apps/Netflix-darwin-x64'`
+* **Hulu**: 
+    * **Windows**: `npm run Hulu && npm run sign-app "apps/Hulu-win32-x64"`
+    * **Linux**: `npm run Hulu && npm run sign-app 'apps/Hulu-wlinux-x64'`
+    * **OSX**: `npm run Hulu && npm run sign-app 'apps/Hulu-darwin-x64'`
+* **HBO Max**: 
+    * **Windows**: `npm run HBO-Max && npm run sign-app "apps/HBO Max-win32-x64"`
+    * **Linux**: `npm run HBO-Max && npm run sign-app 'apps/HBO Max-wlinux-x64'`
+    * **OSX**: `npm run HBO-Max && npm run sign-app 'apps/HBO Max-darwin-x64'`
 
 [URL1]: http://nodejs.org

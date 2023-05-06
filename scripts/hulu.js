@@ -1,11 +1,8 @@
-const fs = require('fs');
-const util = require('util');
-const winston = require('winston');
 var nativefier = require('nativefier').default;
 
 var options = {
-    name: 'YouTube Studio',
-    targetUrl: 'https://studio.youtube.com/',
+    name: 'Hulu',
+    targetUrl: 'https://www.hulu.com/',
     version: '1.0.0',
     appVersion: '1.0.0',
     buildVersion: '1.0.0',
@@ -25,7 +22,7 @@ var options = {
     enableEs3Apis: true,
     internalUrls: '.*?',
     blockExternalUrls: true,
-    widevine: false,
+    widevine: true,
     insecure: false,
     honest: false,
     zoom: 1.0,
@@ -36,29 +33,15 @@ var options = {
         saveAs: true,
     },
     win32metadata: {
-        "ProductName": "YouTube Studio",
-        "InternalName": "youtube-studio"
+        "ProductName": "Hulu",
+        "InternalName": "hulu"
     }
 };
 
 nativefier(options, function (error, appPath) {
-    const logger = winston.createLogger({
-        level: 'info',
-        format: winston.format.json(),
-        defaultMeta: { service: 'user-service' },
-        transports: [
-            new winston.transports.File({ filename: 'error.log', level: 'error' }),
-            new winston.transports.File({ filename: 'combined.log' }),
-        ],
-    });
-
-    logger.add(new winston.transports.Console({
-        format: winston.format.simple(),
-    }));
-    
     if (error) {
         console.error(error);
+        return;
     }
-
     console.log('App has been nativefied to', appPath);
 });
