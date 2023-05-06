@@ -4,6 +4,7 @@ Native app auto compiler using nativefier
 ## Requirements
 
  * **NodeJS**: [Download][URL1]
+ * **Python**: [Download][URL2]
 
 ## Compatible OS
 
@@ -13,6 +14,13 @@ Native app auto compiler using nativefier
 
 ## Instructions
 
+ * Download and install NodeJS and Python from the links above.
+ * Run the commands to install and setup Castlabs EVS:
+ 
+    ```sh
+    python -m pip install --upgrade castlabs-evs
+    python3 -m castlabs_evs.account signup
+    ```
  * Clone the repo to a location of your choosing with `git clone https://github.com/PhantomNimbi/Native-Apps-Compiler`.
  * CD into the base folder and run `npm i` to install the base dependencies.
  * Refer to the list of available apps for the command to build your desired app(s). 
@@ -40,4 +48,5 @@ Native app auto compiler using nativefier
     * **Linux**: `npm run Spotify && npm run sign-app 'apps/Spotify-wlinux-x64'`
     * **OSX**: `npm run Spotify && npm run sign-app 'apps/Spotify-darwin-x64'`
 
-[URL1]: http://nodejs.org
+[URL1]: https://nodejs.org
+[URL2]: https://python.org
