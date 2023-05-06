@@ -88,6 +88,6 @@ permalink: /instructions
 
 The above list is **NOT** final. If you don't see the website you desire an app for in the list, let us know via the discussions section on our github page and we will look into adding it to our list of supported websites. 
 
-You can find out github page at: [PhantomNimbi/Native-Apps-Compiler][URL1].
+You can find our github page at: [PhantomNimbi/Native-Apps-Compiler][URL1].
 
 [URL1]: https://github.com/PhantomNimbi/Native-Apps-Compiler
