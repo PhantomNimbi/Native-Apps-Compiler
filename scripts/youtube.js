@@ -41,7 +41,7 @@ var options = {
     }
 };
 
-nativefier(options, function (appPath) {
+nativefier(options, function (error, appPath) {
     const logger = winston.createLogger({
         level: 'info',
         format: winston.format.json(),
@@ -55,6 +55,10 @@ nativefier(options, function (appPath) {
     logger.add(new winston.transports.Console({
         format: winston.format.simple(),
     }));
+    
+    if (error) {
+        console.error(error);
+    }
 
     console.log('App has been nativefied to', appPath);
 });
