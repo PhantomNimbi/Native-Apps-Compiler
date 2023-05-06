@@ -6,7 +6,7 @@ nav_exclude: true
 ---
 
 
-[logo][URL1]
+![logo][URL1]
 
 
 [URL1]: https://raw.githubusercontent.com/PhantomNimbi/Native-Apps-Compiler/main/.github/assets/logo.png
