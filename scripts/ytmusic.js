@@ -1,5 +1,6 @@
 const fs = require('fs');
 const util = require('util');
+const winston = require('winston');
 var nativefier = require('nativefier').default;
 
 var options = {
@@ -40,12 +41,20 @@ var options = {
   }
 };
 
-nativefier(options, function (error, appPath) {
-  if (error) {
-      var log_file_error = fs.createWriteStream(__dirname + './error.log', { flags: 'a' });
-      console.log('Caught exception: ' + error);
-      log_file_error.write(util.format('Caught exception: ' + error) + '\n');
-      return;
-  }
+nativefier(options, function (appPath) {
+  const logger = winston.createLogger({
+      level: 'info',
+      format: winston.format.json(),
+      defaultMeta: { service: 'user-service' },
+      transports: [
+          new winston.transports.File({ filename: 'error.log', level: 'error' }),
+          new winston.transports.File({ filename: 'combined.log' }),
+      ],
+  });
+
+  logger.add(new winston.transports.Console({
+      format: winston.format.simple(),
+  }));
+
   console.log('App has been nativefied to', appPath);
 });

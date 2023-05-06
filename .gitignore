@@ -3,3 +3,4 @@ node_modules
 *-linux-x64
 *-darwin-x64
 package-lock.json
+*.log

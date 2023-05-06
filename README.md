@@ -25,8 +25,4 @@ Native app auto compiler using nativefier
   * **PH Viewer**: `npm run PHViewer`
   * **G123**: `npm run G123`
 
-## Contributing
-To contribute to the repo, follow the [Contributor Guidelines][URL2]
-
 [URL1]: http://nodejs.org
-[URL2]: ./CONTRIBUTING.md

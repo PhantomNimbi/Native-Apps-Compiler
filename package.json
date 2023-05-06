@@ -13,6 +13,7 @@
     "PHViewer": "node scripts/phviewer.js"
   },
   "dependencies": {
-    "nativefier": "^50.1.1"
+    "nativefier": "^50.1.1",
+    "winston": "^3.8.2"
   }
 }
