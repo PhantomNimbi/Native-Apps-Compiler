@@ -85,6 +85,4 @@ permalink: /README
     ```sh
     npm run Spotify && npm run sign-app 'apps/Spotify-darwin-x64'
     ```
-
-[URL1]: https://nodejs.org
-[URL2]: https://python.org
+    

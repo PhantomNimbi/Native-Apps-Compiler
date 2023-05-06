@@ -2,20 +2,23 @@
 title: Home
 layout: home
 permalink: /
-nav_exclude: true
 ---
 
 ![logo][URL1]
 
-[URL1]: https://raw.githubusercontent.com/PhantomNimbi/Native-Apps-Compiler/main/.github/assets/app-logo.png
+---
 
 ## Requirements
 
- * **NodeJS**: [Download][URL1]
- * **Python**: [Download][URL2]
+ * **NodeJS**: [Download][URL2]
+ * **Python**: [Download][URL3]
 
 ## Supported OS
 
  * **Windows**
  * **Linux**
  * **OSX**
+
+[URL1]: https://raw.githubusercontent.com/PhantomNimbi/Native-Apps-Compiler/main/.github/assets/app-logo.png
+[URL2]: https://nodejs.org
+[URL3]: https://python.org
