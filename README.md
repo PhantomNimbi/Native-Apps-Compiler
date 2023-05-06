@@ -16,11 +16,11 @@ Native app auto compiler using nativefier
 
  * Download and install NodeJS and Python from the links above.
  * Run the following command(s) in your terminal to install and setup Castlabs EVS:
-
-    ```sh
-    python -m pip install --upgrade castlabs-evs
-    python3 -m castlabs_evs.account signup
-    ```
+ 
+ ```sh
+ python -m pip install --upgrade castlabs-evs
+ python3 -m castlabs_evs.account signup
+ ```
 
  * Run the following command(s) in your terminal to clone the repository and install the base dependencies:
 
