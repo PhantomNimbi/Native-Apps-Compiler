@@ -1,7 +1,7 @@
 {
   "name": "native-apps-compiler",
   "description": "Auto compile native apps with nativefier",
-  "version": "1.0.0",
+  "version": "1.0.0-001",
   "engines": {
     "node": "^18"
   },
@@ -13,7 +13,7 @@
     "PH-Viewer": "node scripts/phviewer.js",
     "Netflix": "node scripts/netflix.js",
     "Hulu": "node scripts/hulu.js",
-    "HBO-Max": "node scripts/hbomax.js",
+    "Max": "node scripts/max.js",
     "Spotify": "node scripts/spotify.js"
   },
   "dependencies": {

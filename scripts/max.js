@@ -1,8 +1,8 @@
 var nativefier = require('nativefier').default;
 
 var options = {
-    name: 'HBO Max',
-    targetUrl: 'https://play.hbomax.com/',
+    name: 'Max',
+    targetUrl: 'https://play.max.com/',
     version: '1.0.0',
     appVersion: '1.0.0',
     buildVersion: '1.0.0',
@@ -33,8 +33,8 @@ var options = {
         saveAs: true,
     },
     win32metadata: {
-        "ProductName": "HBO Max",
-        "InternalName": "hbomax"
+        "ProductName": "Max",
+        "InternalName": "max"
     }
 };
 

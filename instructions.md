@@ -88,15 +88,15 @@ permalink: /instructions
 * **HBO Max**: 
     * **Windows**: 
     ```sh
-    npm run HBO-Max && npm run sign-app "apps/HBO Max-win32-x64"
+    npm run Max && npm run sign-app "apps/Max-win32-x64"
     ```
     * **Linux**: 
     ```sh
-    npm run HBO-Max && npm run sign-app 'apps/HBO Max-linux-x64'
+    npm run Max && npm run sign-app 'apps/Max-linux-x64'
     ```
     * **OSX**: 
     ```sh
-    npm run HBO-Max && npm run sign-app 'apps/HBO Max-darwin-x64'
+    npm run Max && npm run sign-app 'apps/Max-darwin-x64'
     ```
 * **Spotify**: 
     * **Windows**: 
